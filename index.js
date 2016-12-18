@@ -6,6 +6,7 @@ const answer = require('./lib/api/answer')
 const collection = require('./lib/api/collection')
 const image = require('./lib/api/image')
 const action = require('./lib/api/action')
+const column = require('./lib/api/column')
 
 module.exports = function() {
   var req = new Request()
@@ -33,6 +34,7 @@ module.exports = function() {
     collection: collection(req),
     image: image(req),
     action: action(req),
+    column: column(req),
 
     _request: req,
     version: require('./package').version
