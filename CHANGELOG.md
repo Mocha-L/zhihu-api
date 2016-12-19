@@ -1,3 +1,8 @@
+# 2.3.0 / 2016-12-19
+
+- Improve request module.
+- Add `api.column`.
+
 # 2.2.0 / 2016-12-14
 
 - Add `api.action`: follow/unfollow users, send messages, vote answers.
