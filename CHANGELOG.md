@@ -1,3 +1,7 @@
+# 2.3.1 / 2016-12-25
+
+- Fix bug: incorrect comments count for topic answers.
+
 # 2.3.0 / 2016-12-19
 
 - Improve request module.
