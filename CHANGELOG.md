@@ -1,3 +1,7 @@
+# 2.3.2 / 2016-12-26
+
+- Fix all incorrect comments count bug.
+
 # 2.3.1 / 2016-12-25
 
 - Fix bug: incorrect comments count for topic answers.
