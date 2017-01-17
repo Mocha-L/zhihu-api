@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>api.answer | zhihu API</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.4">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../api/collection.html" />
+    
+    
+    <link rel="prev" href="../api/question.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="5"
+        data-chapter-title="api.answer"
+        data-filepath="api/answer.md"
+        data-basepath=".."
+        data-revision="Tue Jan 17 2017 17:43:14 GMT+0800 (China Standard Time)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="api/api.html">
+            
+                
+                    <a href="../api/api.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        api
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="api/user.html">
+            
+                
+                    <a href="../api/user.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        api.user
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="api/topic.html">
+            
+                
+                    <a href="../api/topic.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        api.topic
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="api/question.html">
+            
+                
+                    <a href="../api/question.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        api.question
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5" data-path="api/answer.html">
+            
+                
+                    <a href="../api/answer.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        api.answer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="api/collection.html">
+            
+                
+                    <a href="../api/collection.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        api.collection
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="api/image.html">
+            
+                
+                    <a href="../api/image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        api.image
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="api/action.html">
+            
+                
+                    <a href="../api/action.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        api.action
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >zhihu API</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="apianswer">api.answer</h1>
+<p><code>api.answer</code> is the constructor of <code>Answer</code> class.</p>
+<ul>
+<li>Answer(id)<ul>
+<li>voters(offset = 0)</li>
+<li>comments(offset = 0)</li>
+</ul>
+</li>
+<li>Answer.exploreDay(offset = 0)</li>
+<li>Answer.exploreMonth(offset = 0)</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../api/question.html" class="navigation navigation-prev " aria-label="Previous page: api.question"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../api/collection.html" class="navigation navigation-next " aria-label="Next page: api.collection"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
