@@ -1,3 +1,7 @@
+# 2.4.0 / 2017-01-17
+
+- Fix questions to meet the zhihu new API.
+
 # 2.3.2 / 2016-12-26
 
 - Fix all incorrect comments count bug.
