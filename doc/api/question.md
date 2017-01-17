@@ -4,6 +4,6 @@
 
 - Question(id)
   + answersByVote(offset = 0)
-  + answersByPage(page = 1)
+  + answersByCreated(offset = 0)
   + detail()
   + followers(offset = 0)
