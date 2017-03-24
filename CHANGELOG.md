@@ -1,3 +1,7 @@
+# 2.4.1 / 2017-03-24
+
+- Fix answer count for questions under topic.
+
 # 2.4.0 / 2017-01-17
 
 - Fix questions to meet the zhihu new API.
