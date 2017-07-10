@@ -30,13 +30,13 @@
   },
   "homepage": "https://github.com/syaning/zhihu-api#readme",
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^1.0.0-rc.2",
     "cookie": "^0.3.1",
     "debug": "^2.3.2",
     "mkdirp": "^0.5.1",
     "only": "0.0.2",
-    "request": "^2.78.0",
-    "ua-string": "^1.0.0",
+    "request": "^2.81.0",
+    "ua-string": "^1.1.0",
     "zhimg": "^1.3.0"
   },
   "devDependencies": {
