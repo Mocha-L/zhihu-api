@@ -27,6 +27,14 @@ module.exports = function() {
       }
     },
 
+    auth(val) {
+      if (!arguments.length) {
+        return req.headers['Authorization']
+      } else {
+        req.setAuth(val)
+      }
+    },
+
     user: user(req),
     topic: topic(req),
     question: question(req),
