@@ -1,3 +1,7 @@
+# 2.4.2 / 2017-07-10
+
+- Add `api.auth` method (`Request.setAuth`). [#10](https://github.com/syaning/zhihu-api/issues/10)
+
 # 2.4.1 / 2017-03-24
 
 - Fix answer count for questions under topic.
