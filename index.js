@@ -9,8 +9,8 @@ const action = require('./lib/api/action')
 const column = require('./lib/api/column')
 
 module.exports = function() {
-  var req = new Request()
-  var api = {
+  const req = new Request()
+  const api = {
     cookie(val) {
       if (!arguments.length) {
         return req.headers['Cookie']
